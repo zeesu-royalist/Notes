@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-const notes = []
+const notes = [] 
 
 app.get('/', (req, res) => {
     res.send(`
